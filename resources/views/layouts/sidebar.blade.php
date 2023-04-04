@@ -1,6 +1,6 @@
 <!-- Brand logo-->
 <a class="brand-logo" href="javascript:void(0);">
-    <img src="{{ asset('app-assets/images/logo/xpm-logo-2.png') }}" width="150px">
+    <img src="{{ asset('app-assets/images/logo/xpm-logo-2.png') }}" width="350px">
 </a>
 <!-- /Brand logo-->
 <!-- Left Text-->
