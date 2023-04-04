@@ -4,7 +4,7 @@
 </a>
 <!-- /Brand logo-->
 <!-- Left Text-->
-<div class="d-none d-lg-flex col-lg-3 align-items-center p-5">
+<div class="d-none d-lg-flex col-lg-3 align-items-center p-0">
     <!-- <div class="w-100 align-items-center justify-content-center px-5">
         <h2 class="card-title">Expense Title</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

@@ -19,6 +19,7 @@
                         <div class="d-flex col-lg-9 align-items-center auth-bg px-2 p-lg-5">
 
                             <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
+                                <h2 class="card-title float-start mb-2">Welcome to HTCC</h2>
                                 <div class="content-body">
                                     <!-- Horizontal Wizard -->
                                     <section class="horizontal-wizard">
@@ -98,7 +99,7 @@
                                                             <a class="btn btn-primary btn-next">
                                                                 <span
                                                                     class="align-middle d-sm-inline-block d-none">Next</span>
-                                                                <i data-feather="arrow-right"
+                                                                <i data-feather="check-circle"
                                                                     class="align-middle ml-sm-25 ml-0"></i>
                                                             </a>
                                                         </div>
@@ -260,7 +261,7 @@
                                                             <a class="btn btn-primary btn-next">
                                                                 <span
                                                                     class="align-middle d-sm-inline-block d-none">Next</span>
-                                                                <i data-feather="arrow-right"
+                                                                <i data-feather="check-circle"
                                                                     class="align-middle ml-sm-25 ml-0"></i>
                                                             </a>
                                                         </div>
@@ -367,6 +368,30 @@
                                         <!-- </div>-->
                                     </section>
                                     <!-- /Horizontal Wizard -->
+                                    <!-- Expense Policy Card -->
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h4 class="card-title">HTCC Expense Policy</h4>
+                                        </div>
+                                        <div class="card-body">
+
+                                            <ul class="list-style-square">
+                                                <li> HTCC is a 501(c)(3) non-profit organization, we exempt ourselves from
+                                                    federal and state taxes
+                                                </li>
+                                                <li> Taxes should not be paid on any expenses made on behalf of the HTCC
+                                                </li>
+                                                <li> If you are devotee, please submit your expenses within 60 days
+                                                </li>
+                                                <li> Everyone needs to attach 'ORIGINAL' copy of the receipt to the Expense
+                                                    Report</li>
+                                                <li> Once payment has been released, please deposit the check within 3
+                                                    months to avoid&nbsp;further&nbsp;delays</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- /Expense Policy Card -->
                                 </div>
                             </div>
                         </div>
@@ -374,6 +399,7 @@
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
     <!-- END: Content-->

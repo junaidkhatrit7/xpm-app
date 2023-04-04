@@ -83,3 +83,68 @@ input[type=file]::file-selector-button {
         margin-right: 15em;
     }
 }
+
+/* Horizhotal Timeline */
+@media (min-width:1024px){
+    ul.timeline.new-timeline li.timeline-item {
+        float: left;
+        width: 25%;
+    }
+
+    ul.timeline.new-timeline .timeline-item {
+        position: relative;
+        padding-left: 2.5rem;
+        border-left: unset !important;
+        /* border-top: 1px solid #ebe9f1; */
+    }
+    ul.timeline.new-timeline li:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        top: 0;
+        /* border-bottom: solid 2px #000; */
+        border-top: 1px solid #ebe9f1;
+        animation: border_anim 3s linear forwards;
+    }
+
+    ul.timeline.new-timeline .timeline-item .timeline-point {
+        top: -1.4rem !important;
+        left: 50% !important;
+    }
+
+    ul.timeline.new-timeline .timeline-event {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    ul.timeline.new-timeline .timeline-item .timeline-point {
+        height: 2.75rem !important;
+        width: 2.75rem !important;
+    }
+    
+    ul.timeline.new-timeline .timeline-item .timeline-point .feather, [data-feather] {
+        height: 1.2rem;
+        width: 1.2rem;
+        display: inline-block;
+    }
+
+    @keyframes border_anim {
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 100%;
+        }
+    }
+    
+    ul.list-style-square li::marker {
+        color: var(--primary);
+        font-size: 1.2em;
+    }
+}
+
+
+
+/* ------------------------------ */
