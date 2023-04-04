@@ -1,0 +1,85 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+
+
+@media (min-width: 1024px){
+	.space-between {
+		justify-content: space-between;
+	}
+}
+.btn-outline-danger {
+    border: unset !important;
+    color: #ea5455 !important;
+    border-color: rgba(0,0,0,0) !important;
+    background: #fce4e4 !important;
+}
+
+.w-px-400 {
+    width: 400px !important;
+}
+
+.bg-slate-200 {
+    background-color: #e2e8f0;
+}
+.w-px {
+    width: 1px;
+}
+.mx-3 {
+    margin-left: 0.75rem !important;
+    margin-right: 0.75rem !important;
+}
+.small-font {
+    font-size: 11px;
+    font-weight: bold;
+}
+.small-font a{
+	color: var(--dark);
+}
+h4, .h4 {
+       color: var(--primary);
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #e84b29;
+    padding: 10px 20px;
+    border-radius: 0.357rem;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #e84b29;
+  }
+.inputfile{
+    width: 100%;
+    max-width: 100%;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 0.357rem;
+    border: 1px solid #d8d6de;
+}
+.bg-grey {
+    background-color: #f8f8f8;
+    padding: 1.5rem 2rem;
+    border-radius: 0.357rem;
+}
+
+@media (min-width:1024px){
+    .invoice-icon{
+        margin-right: 15em;
+    }
+}

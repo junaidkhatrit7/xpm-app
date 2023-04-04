@@ -1,0 +1,4 @@
+/* Add Expense Form */
+.invoice-preview-card .table-responsive .table tbody>tr:last-child {
+    border-bottom: 1px solid #ebe9f1 !important;
+}
