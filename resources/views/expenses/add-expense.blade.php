@@ -240,8 +240,8 @@
                                                                 </div>
                                                                 <div class="row">
                                                                     <div class="col-12">
-                                                                        <a class="btn btn-outline-primary" type="button"
-                                                                            data-repeater-create>
+                                                                        <a class="btn btn-outline-primary repeater-btn"
+                                                                            type="button" data-repeater-create>
                                                                             <span>Do you want to add more invoices, click
                                                                                 here</span>
                                                                             <i data-feather="plus" class="mr-25"></i>
