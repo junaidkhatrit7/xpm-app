@@ -3,6 +3,8 @@
 use App\Http\Controllers\ExpenseController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\AuthController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,8 +16,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+
+/* Route::get('/', function () {
+    return view('expenses.add-expense');
 });
 
 Route::resource('/expense', ExpenseController::class);
+*/
+
+/* Devetee Routes */
+
+Route::get('/', [ExpenseController::class, 'create'])->name('InvoiceSubmit');
+
+
+/* Login Route */
+
+Route::get('/cockpit', [AuthController::class, 'index'])->name('LoginForm');
+
+/* Two Step Auth */
+Route::get('/verification', [AuthController::class, 'varification'])->name('EmailVerification');

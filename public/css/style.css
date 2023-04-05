@@ -148,3 +148,11 @@ input[type=file]::file-selector-button {
 
 
 /* ------------------------------ */
+
+
+.bg-img {
+    background-image: url(../app-assets/images/htcc2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
