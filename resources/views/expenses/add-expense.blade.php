@@ -99,7 +99,7 @@
                                                             <a class="btn btn-primary btn-next">
                                                                 <span
                                                                     class="align-middle d-sm-inline-block d-none">Next</span>
-                                                                <i data-feather="check-circle"
+                                                                <i data-feather="arrow-right"
                                                                     class="align-middle ml-sm-25 ml-0"></i>
                                                             </a>
                                                         </div>
@@ -135,15 +135,41 @@
                                                                                     <label class="form-label"
                                                                                         for="e-category">Expenses
                                                                                         Category</label>
-                                                                                    <select
-                                                                                        class="select2 w-100 expense-catsel"
-                                                                                        name="e-category" id="e-category">
-                                                                                        <option label=" "></option>
-                                                                                        <option>Navratri</option>
-                                                                                        <option>Pooja</option>
-                                                                                        <option>Ram Navmi</option>
-
-                                                                                    </select>
+                                                                                        <select class="select2 w-100" name="e-category" id="e-category">
+                                                                                            <option label=" "></option>
+                                                                                            <option>Vaikunta Ekadashi</option>
+                                                                                            <option>Sri Ayyappa Swami Puja</option>
+                                                                                            <option>Sri Srinivasa (Goda) Maha Kalyanam</option>
+                                                                                            <option>MahaShivaratri</option>
+                                                                                            <option>Holi</option>
+                                                                                            <option>Ugadi/Gudi Padwa</option>
+                                                                                            <option>Akhand Ramayan Paath</option>
+                                                                                            <option>Sri Ramanavami/Sri Seetha Rama Kalyanam</option>
+                                                                                            <option>Sri Mahaveer Swamy Jayanthi</option>
+                                                                                            <option>Sri Hanuman Jayanthi</option>
+                                                                                            <option>HTCC Brahmotsavam</option>
+                                                                                            <option>Sri Jagannath Rath Yatra </option>
+                                                                                            <option>Sri Guru Poornima</option>
+                                                                                            <option>Hariyali Teej</option>
+                                                                                            <option>Sri Varalaxmi Vratham</option>
+                                                                                            <option>Sri Krishna Janmashtami</option>
+                                                                                            <option>Harithalika Vrat</option>
+                                                                                            <option>Sri Ganesha Chaturdhi</option>
+                                                                                            <option>Sri Saraswathi Puja</option>
+                                                                                            <option>Maata Ki Chowki</option>
+                                                                                            <option>Durgaashtami/Havan</option>
+                                                                                            <option>Maharnavami </option>
+                                                                                            <option>Vijayadasami/Dussehra</option>
+                                                                                            <option>Karwa Chauth</option>
+                                                                                            <option>Deepavali Amavaasya</option>
+                                                                                            <option>Annakut/Govardhan Puja</option>
+                                                                                            <option>Skanda Shashti</option>
+                                                                                            <option>Tulasi Vivah</option>
+                                                                                            <option>Karthika Poornima/Dev Diwali</option>
+                                                                                            <option>Subramanya Shasthi</option>
+                                                                                            <option>Sundar Kand Path 1st Tuesday every month </option>
+            
+                                                                                        </select>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-md-4 col-12">
@@ -152,7 +178,7 @@
                                                                                         Date</label>
                                                                                     <input type="text" id="fp-default"
                                                                                         class="form-control flatpickr-basic"
-                                                                                        placeholder="YYYY-MM-DD"
+                                                                                        placeholder="MM-DD-YYYY"
                                                                                         name="expense-date" />
                                                                                 </div>
                                                                             </div>
@@ -261,7 +287,7 @@
                                                             <a class="btn btn-primary btn-next">
                                                                 <span
                                                                     class="align-middle d-sm-inline-block d-none">Next</span>
-                                                                <i data-feather="check-circle"
+                                                                <i data-feather="arrow-right"
                                                                     class="align-middle ml-sm-25 ml-0"></i>
                                                             </a>
                                                         </div>
