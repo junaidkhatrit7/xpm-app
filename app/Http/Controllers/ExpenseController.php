@@ -24,8 +24,7 @@ class ExpenseController extends Controller
     /* Store a newly created expense in storage.*/
     public function store(Request $request)
     {
-        
-        dd($request);
+       // dd($request);
         // get all invoices submitted by user
         $invoices = $request->input('invoice');
         if (!empty($invoices) && is_array($invoices)) {
@@ -49,7 +48,7 @@ class ExpenseController extends Controller
                     Expense::create([
                         'expense_name' => $val['expense-for'],
                         'expense_category' => $val['e-category'],
-                        'expense_date' => $val['expense-date'],
+                        'expense_date' => date('Y-m-d',strtotime($val['expense-date'])),
                         'merchant_name' => $val['merchant-name'],
                         'expense_cost'  => $val['subtotal'],
                         'tax' => $val['tax'],
@@ -62,6 +61,6 @@ class ExpenseController extends Controller
                 }
             }
         }
-        return redirect('/expense')->with('message', 'Your expense has been added!');
+        return back()->with('message', 'Your expense has been added!');
     }
 }

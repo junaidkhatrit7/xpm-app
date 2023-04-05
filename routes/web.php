@@ -27,6 +27,7 @@ Route::resource('/expense', ExpenseController::class);
 /* Devetee Routes */
 
 Route::get('/', [ExpenseController::class, 'create'])->name('InvoiceSubmit');
+Route::post('/invoicesubmit', [ExpenseController::class, 'store'])->name('InvoiceSubmited');
 
 
 /* Login Route */

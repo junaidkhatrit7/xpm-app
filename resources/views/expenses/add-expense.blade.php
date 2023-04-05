@@ -61,7 +61,7 @@
                                             </div>
                                             <div class="bs-stepper-content">
                                                 <!-- form starts onSubmit="return false" -->
-                                                <form action="/expense" method="POST" enctype="multipart/form-data">
+                                                <form action="{{route('InvoiceSubmited')}}" method="POST" enctype="multipart/form-data">
                                                     @csrf
                                                     <input type="hidden" name="user_id" value="1" />
                                                     <div id="personal-info" class="content">
