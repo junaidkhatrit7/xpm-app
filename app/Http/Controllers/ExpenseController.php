@@ -24,6 +24,8 @@ class ExpenseController extends Controller
     /* Store a newly created expense in storage.*/
     public function store(Request $request)
     {
+        
+        dd($request);
         // get all invoices submitted by user
         $invoices = $request->input('invoice');
         if (!empty($invoices) && is_array($invoices)) {
